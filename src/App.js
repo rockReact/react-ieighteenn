@@ -73,6 +73,7 @@ class App extends Component {
     return (
       this.state.initDone &&
       <div>
+        <div><img src={logo} className="App-logo" alt="logo" /></div>
         <div>
           {this.renderLocaleSelector()}
         </div>
